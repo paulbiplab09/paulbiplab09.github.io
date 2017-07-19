@@ -524,6 +524,11 @@ $(document).ready(function(){
     });
   });
 })
+ $(document).on('click',function(e){
+  if($('#myNavbar').hasClass('in')){
+    $('.collapse').collapse('hide'); 
+  }
+})
 </script>
 
 </body>
